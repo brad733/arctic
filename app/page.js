@@ -136,7 +136,7 @@ export default function ArcticHavenLandingPage() {
                 className="inline-flex items-center gap-2 rounded-full border border-teal-200 bg-teal-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-teal-800"
               >
                 <ShieldCheck className="h-4 w-4" />
-                Built for contractors and crews in extreme heat
+                Built for Workers Safety in All Weather Conditions 
               </motion.p>
 
               <motion.h1
