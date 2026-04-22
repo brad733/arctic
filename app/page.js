@@ -198,14 +198,7 @@ export default function ArcticHavenLandingPage() {
   transition={{ duration: 0.6, delay: 0.1 }}
   className="relative flex flex-col items-center gap-6"
 >
-  {/* LOGO */}
-  <div className="flex justify-center bg-slate-900 p-4 rounded-x1 border border-teal-400 shadow-1g">
-    <img
-      src="/logo2.png"
-      alt="Arctic Haven Logo"
-      className="w-full max-w-[340px] h-auto object-contain"
-    />
-  </div>
+
   <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-blue-100 via-white to-teal-100 blur-2xl" />
   <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-6 text-white shadow-[0_25px_60px_rgba(15,23,42,0.18)]">
                 <div className="flex items-center justify-between">
