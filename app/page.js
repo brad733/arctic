@@ -98,7 +98,7 @@ export default function ArcticHavenLandingPage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-900 text-teal-300 shadow-sm">
-              <Snowflake className="h-6 w-6" />
+              <img src="logo.png" alt="Arctic Haven Logo" className="h-10 w-10 object-contain" />
             </div>
             <div>
               <p className="text-xs uppercase tracking-[0.24em] text-slate-500">Arctic Haven</p>
