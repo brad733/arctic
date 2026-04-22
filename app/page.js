@@ -145,7 +145,7 @@ export default function ArcticHavenLandingPage() {
                 transition={{ duration: 0.55, delay: 0.05 }}
                 className="mt-6 max-w-4xl text-5xl font-semibold tracking-tight text-slate-950 md:text-6xl"
               >
-                Professional cooling pods that bring structure, comfort, and heat relief to the jobsite.
+                Cooling and Heating Pods Built for Texas Crews to Stay Safe, Productive, and Compliant in Extreme Weather Conditions.
               </motion.h1>
 
               <motion.p
