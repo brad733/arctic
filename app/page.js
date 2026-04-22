@@ -199,11 +199,11 @@ export default function ArcticHavenLandingPage() {
   className="relative flex flex-col items-center gap-6"
 >
   {/* LOGO */}
-  <div className="flex justify-center">
+  <div className="flex justify-center bg-slate-900 p-4 rounded-x1 border border-teal-400 shadow-1g">
     <img
       src="/logo2.png"
       alt="Arctic Haven Logo"
-      className="w-full max-w-[240px] h-auto object-contain"
+      className="w-full max-w-[340px] h-auto object-contain"
     />
   </div>
   <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-blue-100 via-white to-teal-100 blur-2xl" />
