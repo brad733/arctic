@@ -192,14 +192,22 @@ export default function ArcticHavenLandingPage() {
               </div>
             </div>
 
-            <motion.div
-              initial={{ opacity: 0, scale: 0.98, y: 10 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="relative"
-            >
-              <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-blue-100 via-white to-teal-100 blur-2xl" />
-              <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-6 text-white shadow-[0_25px_60px_rgba(15,23,42,0.18)]">
+ <motion.div
+  initial={{ opacity: 0, scale: 0.98, y: 10 }}
+  animate={{ opacity: 1, scale: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.1 }}
+  className="relative flex flex-col items-center gap-6"
+>
+  {/* LOGO */}
+  <div className="flex justify-center">
+    <img
+      src="/logo2.png"
+      alt="Arctic Haven Logo"
+      className="w-full max-w-[240px] h-auto object-contain"
+    />
+  </div>
+  <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-blue-100 via-white to-teal-100 blur-2xl" />
+  <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-6 text-white shadow-[0_25px_60px_rgba(15,23,42,0.18)]">
                 <div className="flex items-center justify-between">
                   <p className="text-sm uppercase tracking-[0.22em] text-teal-300">Field-ready concept</p>
                   <div className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-slate-200">Premium industrial design</div>
