@@ -473,7 +473,7 @@ export default function ArcticHavenLandingPage() {
               </div>
             </div>
 
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_16px_40px_rgba(15,23,42,0.08)] md:p-8">
+            <form action="https://formspree.io/f/xqewnbar" method="POST" className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_16px_40px_rgba(15,23,42,0.08)]">
               <div className="grid gap-5 md:grid-cols-2">
                 <div>
                   <label className="mb-2 block text-sm font-medium text-slate-700">First name</label>
@@ -523,7 +523,7 @@ export default function ArcticHavenLandingPage() {
                 />
               </div>
 
-              <button className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 px-6 py-4 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-slate-800">
+              <button type="submit" className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 px-6 py-4 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-slate-800">
                 Submit Inquiry
                 <ArrowRight className="h-4 w-4" />
               </button>
@@ -531,7 +531,7 @@ export default function ArcticHavenLandingPage() {
               <p className="mt-4 text-sm leading-6 text-slate-500">
                 This demo form is ready for your preferred form handling or CRM integration.
               </p>
-            </div>
+            </form>
           </div>
         </section>
       </main>
