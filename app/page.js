@@ -473,40 +473,40 @@ export default function ArcticHavenLandingPage() {
               </div>
             </div>
 
-            <form action="https://formspree.io/f/xqewnbar" method="POST" className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_16px_40px_rgba(15,23,42,0.08)]">
+            <form action="https://formspree.io/f/xqewnbar" method="POST" encType="application/x-www-form-urlencoded" className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_16px_40px_rgba(15,23,42,0.08)]">
               <div className="grid gap-5 md:grid-cols-2">
                 <div>
                   <label className="mb-2 block text-sm font-medium text-slate-700">First name</label>
-                  <input className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="First name" />
+                  <input name="firstName" className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="First name" />
                 </div>
                 <div>
                   <label className="mb-2 block text-sm font-medium text-slate-700">Last name</label>
-                  <input className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="Last name" />
+                  <input name="lastName" className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="Last name" />
                 </div>
                 <div>
                   <label className="mb-2 block text-sm font-medium text-slate-700">Company</label>
-                  <input className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="Company name" />
+                  <input name="company" className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="Company name" />
                 </div>
                 <div>
                   <label className="mb-2 block text-sm font-medium text-slate-700">Phone</label>
-                  <input className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="Phone number" />
+                  <input name="phone" className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="Phone number" />
                 </div>
               </div>
 
               <div className="mt-5 grid gap-5 md:grid-cols-2">
                 <div>
                   <label className="mb-2 block text-sm font-medium text-slate-700">Email</label>
-                  <input className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="Work email" />
+                  <input name="email" className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="Work email" />
                 </div>
                 <div>
                   <label className="mb-2 block text-sm font-medium text-slate-700">Project location</label>
-                  <input className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="City / region" />
+                  <input name="projectLocation" className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500" placeholder="City / region" />
                 </div>
               </div>
 
               <div className="mt-5">
                 <label className="mb-2 block text-sm font-medium text-slate-700">What are you looking for?</label>
-                <select className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500">
+                <select name="inquiryType" className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500">
                   <option>Request pilot program information</option>
                   <option>Discuss jobsite fit</option>
                   <option>Pricing and availability</option>
@@ -516,7 +516,7 @@ export default function ArcticHavenLandingPage() {
 
               <div className="mt-5">
                 <label className="mb-2 block text-sm font-medium text-slate-700">Project details</label>
-                <textarea
+                <textarea name="projectDetails"
                   rows={6}
                   className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500"
                   placeholder="Tell us about your project, crew size, timeline, and what you want to explore."
