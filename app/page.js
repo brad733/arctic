@@ -110,7 +110,7 @@ export default function ArcticHavenLandingPage() {
             <a href="#pod" className="text-sm font-medium text-slate-600 hover:text-slate-900">The Pod</a>
             <a href="#why" className="text-sm font-medium text-slate-600 hover:text-slate-900">Why It Matters</a>
             <a href="#how" className="text-sm font-medium text-slate-600 hover:text-slate-900">How It Works</a>
-            <a href="#pilot" className="text-sm font-medium text-slate-600 hover:text-slate-900">Pilot Program</a>
+            <a href="#pilot" className="text-sm font-medium text-slate-600 hover:text-slate-900">Get Started</a>
             <a href="#faq" className="text-sm font-medium text-slate-600 hover:text-slate-900">FAQ</a>
           </nav>
 
