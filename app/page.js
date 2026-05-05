@@ -365,18 +365,18 @@ export default function ArcticHavenLandingPage() {
             <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 text-white shadow-[0_20px_60px_rgba(15,23,42,0.18)]">
               <div className="grid gap-10 px-6 py-10 md:px-10 md:py-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:px-12">
                 <div>
-                  <p className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-300">Pilot program</p>
-                  <h2 className="mt-4 text-3xl md:text-4xl font-semibold tracking-tight">Test Arctic Haven on a real jobsite before committing to a broader rollout.</h2>
+                  <p className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-300">Get started</p>
+                  <h2 className="mt-4 text-3xl md:text-4xl font-semibold tracking-tight">Bring Arctic Haven to your jobsite.</h2>
                   <p className="mt-5 max-w-2xl text-base md:text-lg leading-8 text-slate-300">
-                    Our pilot program is designed for construction companies that want to evaluate the concept in a real-world environment. It gives your team the opportunity to assess fit, gather crew feedback, and determine whether Arctic Haven should become part of your standard field setup.
+                    We work directly with contractors to deploy climate-controlled cooling pods where they're needed most.  Each installation is tailored to your jobsite, crew size, and project duration-ensuring a seamless fit into your existing operations.
                   </p>
 
                   <div className="mt-8 grid gap-4 sm:grid-cols-2">
                     {[
-                      "Qualifying jobsite placement",
-                      "Defined pilot timeframe",
-                      "Operational alignment before setup",
-                      "Team feedback and next-step review",
+                      "Jobsite assessment & placement planning",
+                      "Delivery and on-site installation",
+                      "Seamless integration with active crews",
+                      "Ongoing support throughout the project",
                     ].map((item) => (
                       <div key={item} className="flex items-start gap-3 rounded-2xl border border-white/10 bg-white/5 p-4">
                         <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-teal-300" />
@@ -387,13 +387,13 @@ export default function ArcticHavenLandingPage() {
                 </div>
 
                 <div className="rounded-[1.75rem] border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
-                  <h3 className="text-2xl font-semibold text-white">Who should apply</h3>
+                  <h3 className="text-2xl font-semibold text-white">Who it's for</h3>
                   <div className="mt-6 space-y-4">
                     {[
                       "General contractors managing active Texas jobsites",
-                      "Trade partners looking for a stronger crew-support solution",
+                      "Trade partners focused on crew performance and safety",
                       "Project teams that want a more professional heat-relief setup",
-                      "Builders interested in evaluating value before scaling to more sites",
+                      "Builders looking to standardize jobsite conditions",
                     ].map((item) => (
                       <div key={item} className="flex gap-3 rounded-2xl border border-white/10 bg-slate-900/40 p-4">
                         <ArrowRight className="mt-1 h-4 w-4 shrink-0 text-teal-300" />
@@ -406,7 +406,7 @@ export default function ArcticHavenLandingPage() {
                     href="#contact"
                     className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-teal-500 px-5 py-4 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-teal-400"
                   >
-                    Ask About Pilot Availability
+                    Request a Call
                     <ArrowRight className="h-4 w-4" />
                   </a>
                 </div>
