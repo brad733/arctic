@@ -368,7 +368,7 @@ export default function ArcticHavenLandingPage() {
                   <p className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-300">Get started</p>
                   <h2 className="mt-4 text-3xl md:text-4xl font-semibold tracking-tight">Bring Arctic Haven to your jobsite.</h2>
                   <p className="mt-5 max-w-2xl text-base md:text-lg leading-8 text-slate-300">
-                    We work directly with contractors to deploy climate-controlled cooling pods where they're needed most.  Each installation is tailored to your jobsite, crew size, and project duration-ensuring a seamless fit into your existing operations.
+                    We work directly with contractors to deploy climate-controlled cooling pods where they're needed most.  Each installation is tailored to your jobsite, crew size, and project duration-ensuring a seamless fit into your operations. Designed to support OSHA heat safety standards and improve crew productivity.
                   </p>
 
                   <div className="mt-8 grid gap-4 sm:grid-cols-2">
