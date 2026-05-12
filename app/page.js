@@ -540,7 +540,6 @@ export default function ArcticHavenLandingPage() {
           <p>© {year} Arctic Haven. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-5">
             <a href="#pod" className="hover:text-slate-900">The Pod</a>
-            <a href="#pilot" className="hover:text-slate-900">Pilot Program</a>
             <a href="#contact" className="hover:text-slate-900">Contact</a>
           </div>
         </div>
