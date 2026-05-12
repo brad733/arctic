@@ -332,16 +332,16 @@ export default function ArcticHavenLandingPage() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <SectionTitle
               eyebrow="How it works"
-              title="A straightforward process built for busy contractors."
-              copy="We keep the path simple so your team can evaluate the concept quickly, coordinate jobsite placement, and see how Arctic Haven fits into real field operations."
+              title="A straightforward deploymemt process built for busy contractors."
+              copy="We make deployment simple so your team can get Arctic Haven operational quickly with minimal disruption to your active jobsite."
             />
 
             <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
               {[
-                ["01", "Intro call", "We learn about your project type, crew needs, timeline, and whether a pilot makes sense."],
-                ["02", "Site review", "We align on placement, power, access, and the basic operating logistics for the unit."],
-                ["03", "Deployment", "The pod is placed on site so your crew can begin using it during active operations."],
-                ["04", "Evaluation", "You review adoption, team feedback, and next-step opportunities for broader rollout."],
+                ["01", "Jobsite Consultation", "We learn about your project scope, crew size, timeline, and cooling needs to recommend the best setup."],
+                ["02", "Site Planning", "We coordinate placement, power access, delivery logistics, and jobsite requirements for seamless deployment."],
+                ["03", "Delivery & Setup", "Arctic Haven is delivered and positioned on site so crews can begin using it immediately."],
+                ["04", "Ongoing Support", "We stay available to support relocation needs, project changes, and ongoing crew use throughout the job."],
               ].map(([step, title, copy]) => (
                 <motion.div
                   key={step}
