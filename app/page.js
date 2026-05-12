@@ -167,7 +167,7 @@ export default function ArcticHavenLandingPage() {
                   href="#pilot"
                   className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-900 px-6 py-4 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-slate-800"
                 >
-                  Explore the Pilot Program
+                  Explore the Solution
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
@@ -182,7 +182,7 @@ export default function ArcticHavenLandingPage() {
                 {[
                   ["Climate-controlled", "Air-conditioned relief for hot jobsite conditions"],
                   ["Contractor-focused", "Designed for practical deployment on active sites"],
-                  ["Pilot-ready", "Simple way to evaluate value before expansion"],
+                  ["OSHA-minded", "Built to support heat safety planning and crew wellbeing"],
                 ].map(([title, copy]) => (
                   <div key={title} className="rounded-2xl border border-slate-200 bg-white p-4 shadow-[0_10px_24px_rgba(15,23,42,0.05)]">
                     <p className="text-sm font-semibold text-slate-900">{title}</p>
