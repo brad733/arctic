@@ -28,8 +28,8 @@ const faqs = [
     a: "It is built for general contractors, subcontractors, builders, and project teams that want to improve worker comfort, demonstrate heat-safety leadership, and bring a more professional break solution to active jobsites.",
   },
   {
-    q: "How does the pilot program work?",
-    a: "We place an Arctic Haven unit on a qualifying jobsite for a defined pilot period, align on logistics and usage expectations, and gather real-world feedback from your team so you can evaluate the impact before scaling.",
+    q: "How does deployment work?",
+    a: "Arctic Haven is delivered and positioned on your jobsite based on project needs, crew size, and site logistics.  We coordinate placement, access, and setup to ensure a smooth, low disruption deployment.",
   },
   {
     q: "What can crews use the pod for?",
@@ -40,8 +40,8 @@ const faqs = [
     a: "Yes. Arctic Haven is designed around practical jobsite deployment. Placement, access, and power requirements are reviewed with your team before installation to help ensure a smooth setup.",
   },
   {
-    q: "How do we get started?",
-    a: "Use the contact form below to request a conversation. We will reach out to discuss your site, crew size, timing, and whether a pilot program is the right fit.",
+    q: "How do I request Arctic Haven for my project?",
+    a: "Contact our team to discuss your project timeline, crew size, and jobsite requirements.  We'll help determine the best deployment approach for your needs.",
   },
 ];
 
