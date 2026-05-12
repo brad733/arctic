@@ -437,7 +437,7 @@ export default function ArcticHavenLandingPage() {
               <SectionTitle
                 eyebrow="Contact"
                 title="Start the conversation about your next jobsite."
-                copy="Tell us a little about your company, your site, and what you are looking for. We will follow up to discuss fit, logistics, and pilot program availability."
+                copy="Tell us about your project, crew size, needs and timeline.  Our team will follow up to discuss deployment logistics, fit, and availability for your jobsite."
               />
 
               <div className="mt-8 space-y-4">
@@ -507,8 +507,7 @@ export default function ArcticHavenLandingPage() {
               <div className="mt-5">
                 <label className="mb-2 block text-sm font-medium text-slate-700">What are you looking for?</label>
                 <select name="inquiryType" className="w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none transition focus:border-teal-500">
-                  <option>Request pilot program information</option>
-                  <option>Discuss jobsite fit</option>
+                  <option>Jobsite consultation</option>
                   <option>Pricing and availability</option>
                   <option>General inquiry</option>
                 </select>
