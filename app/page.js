@@ -196,57 +196,14 @@ export default function ArcticHavenLandingPage() {
   initial={{ opacity: 0, scale: 0.98, y: 10 }}
   animate={{ opacity: 1, scale: 1, y: 0 }}
   transition={{ duration: 0.6, delay: 0.1 }}
-  className="relative flex flex-col items-center gap-6"
+  className="relative min-h-[400px] overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-2x1"
 >
-
-  <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-blue-100 via-white to-teal-100 blur-2xl" />
-  <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-6 text-white shadow-[0_25px_60px_rgba(15,23,42,0.18)]">
-                <div className="flex items-center justify-between">
-                  <p className="text-sm uppercase tracking-[0.22em] text-teal-300">Field-ready concept</p>
-                  <div className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-slate-200">Premium industrial design</div>
-                </div>
-
-                <div className="mt-6 rounded-[1.5rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,23,42,0.8),rgba(15,23,42,1))] p-6">
-                  <div className="rounded-[1.35rem] border border-teal-400/20 bg-slate-900 p-5">
-                    <div className="grid gap-4">
-                      <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 p-4">
-                        <div>
-                          <p className="text-xs uppercase tracking-[0.2em] text-slate-400">Interior environment</p>
-                          <p className="mt-1 text-lg font-semibold">Cool-down space for crews</p>
-                        </div>
-                        <Snowflake className="h-8 w-8 text-teal-300" />
-                      </div>
-
-                      <div className="grid gap-4 sm:grid-cols-2">
-                        <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                          <Droplets className="h-5 w-5 text-teal-300" />
-                          <p className="mt-3 text-sm font-semibold text-white">Hydration support</p>
-                          <p className="mt-2 text-sm leading-6 text-slate-300">A more organized recovery point for water and break-time essentials.</p>
-                        </div>
-                        <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                          <ClipboardCheck className="h-5 w-5 text-teal-300" />
-                          <p className="mt-3 text-sm font-semibold text-white">Professional site experience</p>
-                          <p className="mt-2 text-sm leading-6 text-slate-300">A visible sign that worker wellbeing and operational readiness matter.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-6 grid grid-cols-3 gap-3 text-center">
-                  {[
-                    ["Cooling", "Focused relief"],
-                    ["Comfort", "Structured breaks"],
-                    ["Professionalism", "Crew-first presence"],
-                  ].map(([value, label]) => (
-                    <div key={value} className="rounded-2xl border border-white/10 bg-white/5 px-3 py-4">
-                      <p className="text-sm font-semibold text-white">{value}</p>
-                      <p className="mt-1 text-xs text-slate-300">{label}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </motion.div>
+  <img
+    src="/pod-hero.jpg"
+    alt="Arctic Haven climate-controlled recovery pod"
+    className="absolute inset-0 h-full w-full object-cover"
+  />
+</motion.div>
           </div>
         </section>
 
